@@ -27,7 +27,7 @@
 }
 
 .hidden {
-    width: 40%;
+    width: 50%;
 }
 
 
@@ -76,9 +76,15 @@
 
 }
 
-.main-btn {
+.main-btn {   /* btn which is used in Read Me */
 
     background-color: orange;
+}
+
+.main-btn:hover {
+
+    background-color: blue;
+
 }
 
 
@@ -99,6 +105,13 @@
     height: auto;
 }
 
+.btn a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
 /* *************************    footer  *************** */
 
 
@@ -111,4 +124,5 @@ footer p {
     height: 5vh;
     background-color: rgb(197, 191, 191);
     margin-bottom: 0;
+    font-size: small;
 }
