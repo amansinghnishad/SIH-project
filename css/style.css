@@ -16,7 +16,9 @@
 
 .navbar-2 {
 
+    position: sticky;
     z-index: 1;
+    top: 9%;
 }
 
 .navlist {
@@ -50,7 +52,7 @@
     transform: translate(-50%, -50%);
     max-width: 50%; 
     width: 50%; 
-    background-color: #fefefe;
+    background-color: #000000;
     padding: 20px;
     border-radius: 2%;
    
@@ -62,17 +64,21 @@
   
   /* Style for the modal content */
   .signInContent {
+    
+    background-color: #000000;
     top: 30px ;
     position: relative;
+    color: white;
   }
   
  
   .close {
     position: absolute;
-    top: 5px;
+    top: 0;
     right: 15px;
     font-size: 20px;
     cursor: pointer;
+    color: black;
   }
   
  
@@ -96,6 +102,14 @@
 
 
 
+}
+
+.product-container  {
+
+    padding: 5%;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
 }
 
 .statement-1 {
