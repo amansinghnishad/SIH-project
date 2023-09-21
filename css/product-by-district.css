@@ -1,0 +1,118 @@
+/* Common styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navlist {
+
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in {
+
+    padding-right: 1%;
+
+}
+
+.hidden {
+    width: 50%;
+}
+
+
+
+
+/* Container for the cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card-image {
+
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 25%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+
+/* Show the image on hover */
+    .card-image {
+        display: block;
+        z-index: -1;
+    
+    }
+
+
+.card:hover {
+    transform: scale(1.05);  /*enlarge*/
+   
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px);
+       
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 0 0 calc(100% - 20px);
+       
+    }
+    .card:hover .card-image {
+        display: block;
+        object-fit: fill;
+        z-index: -1;
+    
+    }
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-image-container {
+    flex: 1;
+}
+
+.card-text {
+    flex: 2;
+    padding: 20px;
+}
