@@ -42,6 +42,7 @@ body {
 }
 
 .card {
+
     flex: 0 0 calc(33.333% - 20px);
     background-color: white;
     border-radius: 5px;
@@ -78,10 +79,19 @@ body {
    
 }
 
+@media (min-width:769px) {
+
+    .card{
+        margin-left: 2.5%;
+        display: inline-flex;
+        width: 45%;
+    }
+}
 
 @media (max-width: 768px) {
     .card {
         flex: 0 0 calc(50% - 20px);
+        
        
     }
 

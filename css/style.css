@@ -14,6 +14,11 @@
     z-index: 100;
 }
 
+.navbar-2 {
+
+    z-index: 1;
+}
+
 .navlist {
 
     text-decoration: none;
@@ -27,8 +32,59 @@
 }
 
 .hidden {
-    width: 50%;
+    width: 45%;
 }
+
+
+
+
+/* CSS for Sign-in function  */
+
+/* Style for the modal container */
+.SignIn {
+    height:40%;
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%; 
+    width: 50%; 
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 2%;
+   
+  }
+  #signInModal {
+
+    height:35%
+  }
+  
+  /* Style for the modal content */
+  .signInContent {
+    top: 30px ;
+    position: relative;
+  }
+  
+ 
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .SignIn {
+        height: 50%;
+      max-width:80%; 
+      width: 80%;
+      padding: 10px;
+    }
+  }
+  
 
 
 /* *************************    main body  *************** */
@@ -109,6 +165,16 @@
 
     text-decoration: none;
     color: white;
+}
+
+.btn {
+
+    margin-left: 0.3%;
+}
+
+#ModelBtn {
+
+    width: 25%;
 }
 
 
