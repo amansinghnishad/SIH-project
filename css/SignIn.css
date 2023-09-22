@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background: blue;
+    background: linear-gradient(to bottom, rgb(191, 191, 195), rgb(90, 88, 88) );
+
     transition: 0.5s;
 }
 
@@ -20,13 +21,14 @@ body {
     width: 800px;
     height: 500px;
     margin: 20px;
-    background: blue;
+    background: linear-gradient(to bottom, rgb(191, 191, 195), rgb(90, 88, 88) );
+    z-index: 2;
 
 }
 
 body.active {
 
-    background: blue;
+    background: linear-gradient(to bottom, rgb(191, 191, 195), rgb(90, 88, 88) );
 }
 
 .blueBg {
@@ -38,7 +40,7 @@ body.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(60, 60, 252);
+    background: linear-gradient(to bottom, rgb(191, 191, 195), rgb(90, 88, 88) );
     box-shadow: 0 5px 45px rgba(7, 52, 116, 0.671);
 }
 
