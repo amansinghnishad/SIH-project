@@ -51,6 +51,7 @@ body {
     padding: 20px;
     text-align: center;
     transition: transform 0.3s;
+    z-index: 2;
 }
 
 .card-image {
@@ -62,7 +63,9 @@ body {
     width: 25%;
     height: 80%;
     object-fit: cover;
+    
 }
+
 
 
 
@@ -78,6 +81,7 @@ body {
     transform: scale(1.05);  /*enlarge*/
    
 }
+
 
 @media (min-width:769px) {
 

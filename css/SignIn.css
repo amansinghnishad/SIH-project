@@ -26,7 +26,7 @@ body {
 
 body.active {
 
-    background: red;
+    background: blue;
 }
 
 .blueBg {
@@ -172,7 +172,7 @@ body.active {
 
 .formBox.active .signupForm input[type="submit"] {
 
-    background: red;
+    background: blue;
 }
 
 .formBox .form form .forget {
@@ -191,7 +191,7 @@ body.active {
     margin: 1%;
     border: 1px solid black;
     border-radius: 4px;
-    background: linear-gradient(to right, rgba(0, 0, 255, 0.581), rgba(255, 0, 0, 0.532) );
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.74), rgba(255, 0, 0, 0.751) );
 
     
 }

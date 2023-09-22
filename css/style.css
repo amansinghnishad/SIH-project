@@ -172,7 +172,7 @@
     max-width: 1024px;
     max-height: 1024px;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .btn a {
@@ -189,6 +189,14 @@
 #ModelBtn {
 
     width: 25%;
+}
+
+.product-images {
+
+    width: 300px;
+    height: 400px;
+    padding-top: 8%;
+
 }
 
 

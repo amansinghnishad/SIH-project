@@ -4,7 +4,7 @@ var districtInfo = {
     "Products": ["Fish based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/fish.png",
     "ProductSite": "Mutton-Fish.html"
     
   },
@@ -12,133 +12,133 @@ var districtInfo = {
     "Products": ["Poultry/ mutton products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/mutton.jpg",
     "ProductSite": "Mutton-Fish.html"
   },
   "Baramulla": {
     "Products": ["Apple based product"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/apples.png",
     "ProductSite": "Apple-bakery.html"
   },
   "Budgam": {
     "Products": ["Milk based product"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/milk.jpg",
     "ProductSite": "Milk-products.html"
   },
   "Doda": {
     "Products": ["Olive Product"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/olive.jpeg",
     "ProductSite": "millits-Olive-mushrooms.html"
   },
   "Ganderbal": {
     "Products": ["Fish based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/fish.png",
     "ProductSite": "Mutton-Fish.html"
   },
   "Jammu": {
     "Products": ["Milk based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/milk.jpg",
     "ProductSite": "Milk-products.html"
   },
   "Kathua": {
     "Products": ["Spices"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/spices.png",
     "ProductSite": "Spices-Pickels.html"
   },
   "Kishtwar": {
     "Products": ["Walnut products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/walnuts.jpeg",
     "ProductSite": "walnut-honey.html"
   },
   "Kupwara": {
     "Products": ["Walnut products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/walnuts.jpeg",
     "ProductSite": "walnut-honey.html"
   },
   "Kulgam": {
     "Products": ["Spices and Pickles"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/spices.png",
     "ProductSite": "Spices-Pickels.html"
   },
   "Poonch": {
     "Products": ["Millet based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/millets.png",
     "ProductSite": "millits-Olive-mushrooms.html"
   },
   "Pulwama": {
     "Products": ["Milk based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/milk.jpg",
     "ProductSite": "Milk-products.html"
   },
   "Rajouri": {
     "Products": ["Milk based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/milk.jpg",
     "ProductSite": "Milk-products.html"
   },
   "Ramban": {
     "Products": ["Honey"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/honey.jpeg",
     "ProductSite": "walnut-honey.html"
   },
   "Reasi": {
     "Products": ["Spices"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/spices.png",
     "ProductSite": "Spices-Pickels.html"
   },
   "Samba": {
     "Products": ["Mushroom Products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/mushrooms.png",
     "ProductSite": "millits-Olive-mushrooms.html"
   },
   "Shopian": {
     "Products": ["Apple based products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/apples.png",
     "ProductSite": "Apple-bakery.html"
   },
   "Srinagar": {
     "Products": ["Bakery Products"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/bakery.jpeg",
     "ProductSite": "Apple-bakery.html"
   },
   "Udhampur": {
     "Products": ["Pickles"],
     "Population": 100000,
     "Area": "120 square miles",
-    "Image": "images/fish.jpg",
+    "Image": "images/pickles.png",
     "ProductSite": "Spices-Pickels.html"
   }
 };
